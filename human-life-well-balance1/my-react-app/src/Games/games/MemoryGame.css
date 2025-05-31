@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #282c34;
+    text-align: center;
+    color:#fff
+}
+.memoryGame{
+    max-width:860px;
+    margin:40px auto;
+}
+button{
+    background:none;
+    border:2px solid #fff;
+    padding:6px 12px;
+    border-radius:4px;
+    color:#fff;
+    font-weight:bold;
+    cursor:pointer;
+    font-size:1em;
+}
+button:hover{
+    background: #c23866;
+    color:#fff
+}
+.card-grid{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap:20px;
+}

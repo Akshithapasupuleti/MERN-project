@@ -1,0 +1,121 @@
+/* frontend/src/components/AuthForm.css */
+
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('login.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .auth-form {
+    max-width: 600px; /* Adjust the max-width to make the form wider */
+    width: 90%; /* Adjust the width as needed */
+    padding: 30px;
+    border: 1px solid #e3e6e8;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+  
+  .auth-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 24px; /* Larger font size */
+  }
+  
+  .auth-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form form div {
+    margin-bottom: 20px; /* Increased spacing between form elements */
+  }
+  
+  .auth-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    padding: 12px; /* Increased padding for better touch target */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.2s;
+    font-size: 16px; /* Larger font size */
+  }
+  
+  .auth-form input:focus {
+    outline: none; /* Remove outline on focus */
+    border-color: #007bff;
+  }
+  
+  .auth-form button {
+    padding: 12px;
+    background-color: #170154;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Larger font size */
+    transition: background-color 0.2s;
+  }
+  
+  .auth-form button:hover {
+    background-color: #218838;
+  }
+  
+  .auth-form .toggle-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px; /* Larger font size */
+    transition: background-color 0.2s;
+  }
+  
+  .auth-form .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-form p {
+    text-align: center;
+    margin-top: 20px; /* Increased top margin */
+    color: #666666;
+  }
+  
+  .success-message,
+  .error-message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .success-message {
+    color: #28a745; /* Green color for success message */
+  }
+  
+  .error-message {
+    color: #dc3545; /* Red color for error message */
+  }
+  

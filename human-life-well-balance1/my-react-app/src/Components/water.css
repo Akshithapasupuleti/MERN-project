@@ -1,0 +1,104 @@
+/* water.css */
+
+/* Body styles for full viewport height and background */
+.Overlay_water {
+  font-family: 'Roboto', sans-serif; /* Optional: Use a Google Font for better typography */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('water2.jpg.jpg') no-repeat fixed center center;
+  background-size: cover;
+}
+
+/* Container for the main content */
+.Remain {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: rgb(219, 22, 22);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  max-width: 600px;
+}
+
+/* App title */
+.App-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* App subtitle */
+.App-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.Container{
+  background-color: aliceblue;
+}
+
+/* Button styling */
+.App-button {
+  font-size: 1.2rem;
+  padding: 12px 24px;
+  background-color: #007bff; /* Primary button color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.App-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Emoji container */
+.emoji-container {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+/* Reminder list item */
+.reminder-item {
+  background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reminder-item.completed {
+  background-color: #e1f7e9; /* Light green for completed items */
+}
+
+/* Complete button */
+.reminder-item .btn-success {
+  padding: 8px 16px;
+  font-size: 1rem;
+}
+
+/* Responsiveness adjustments */
+@media (max-width: 768px) {
+  .Remain {
+    padding: 20px;
+  }
+
+  .App-title {
+    font-size: 2.5rem;
+  }
+
+  .App-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .emoji-container {
+    font-size: 2rem;
+  }
+}

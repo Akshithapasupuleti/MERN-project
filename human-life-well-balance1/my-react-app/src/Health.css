@@ -1,0 +1,34 @@
+/* Health.css */
+
+.container {
+  background-color: #f8f0f5d0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  margin-bottom: 20px;
+}
+
+.form-subtitle {
+  margin-top: 20px;
+}
+
+.form-feedback {
+  margin-top: 20px;
+}
+
+.text-field {
+  margin-bottom: 15px;
+}
+
+/* Modify text-field class to make text bold and black */
+.text-field .MuiInputBase-input {
+  font-weight: bold;
+  color: black;
+}
+
+.submit-button {
+  margin-top: 20px;
+}

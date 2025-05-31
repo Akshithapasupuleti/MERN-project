@@ -1,0 +1,43 @@
+.overlap {
+  background-image: url('./Components/Images/image4.jpg');
+
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .motivation {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 8px;
+    max-width: 600px;
+  }
+  
+  .motivation h1 {
+    font-size: 2.5rem;
+  }
+  
+  .motivation button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .motivation button:hover {
+    background-color: #0056b3;
+  }
+  
+  .motivation blockquote {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  

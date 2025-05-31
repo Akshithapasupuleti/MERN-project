@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:rgb(2, 148, 138); /* Background color for the body */
+}
+
+.navbar {
+  color: #fff; /* Text color */
+  padding: 15px 20px; /* Increased padding for top and bottom */
+  height: 70px; /* Increased height */
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space items horizontally */
+  align-items: center; /* Center items vertically */
+  position: fixed; /* Fixed position to stick to the top */
+  top: 0; /* Position at the top */
+  left: 0; /* Position at the left */
+  right: 0; /* Position at the right */
+  z-index: 1000; /* Ensure navbar stays on top of other content */
+  background-color: transparent; /* Transparent background */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+}
+
+.navbar-title {
+  font-size: 1.8rem; /* Larger font size */
+  font-weight: bold; /* Bold font weight */
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* White text color */
+}
+
+.navbar-nav {
+  list-style-type: none; /* Remove default list styles */
+  display: flex; /* Flexbox layout */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 15px; /* Margin around each item */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* White text color */
+  font-weight: bold; /* Bold font weight */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+  transform: scale(1.1); /* Scale up slightly on hover */
+}
+/* styles.css */
+
